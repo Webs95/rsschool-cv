@@ -1,6 +1,6 @@
 #**Aleksandr Semashko**
 ###*/Frontend Developer(Beginner)*/
-##Contacts
+##**Contacts**
 * **Location:** Belarus, Minsk 
 * **Email:** alexandersemashko1995@yandex.ru
 * **LinkedIn:** [alexandrsemashko](https://www.linkedin.com/in/alexandrsemashko/)
@@ -12,7 +12,7 @@ I am a beginner Frontend developer.\
 I am currently studying React.js, and also Redux.js.\
 In parallel, I use the accumulated knowledge in practice.
 
-##**Skills:**
+##**Skills**
 * HTML
 * CSS/Sass/SCSS
 * JavaScript
@@ -22,13 +22,16 @@ In parallel, I use the accumulated knowledge in practice.
 * NPM
 * OOP
 
-##**Code Example:**
+##**Code Example**
 ```
 function isPalindrome(word) {
   return word.toLowerCase() === word.toLowerCase().split('').reverse().join('')
 }
 ```
 
-##**Languages:**
-* **English** - */B1*/
-* **Russian** - *Native*/
+##**Languages**
+* **English** - */B1(in progress)*/
+* **Russian** - */Native*/
+
+##**Education**
+* **Belarusian State Academy Of Communications** */Department of Telecommunications Networks Software*/
