@@ -11,3 +11,13 @@
 I am a beginner Frontend developer.\
 I am currently studying React.js, and also Redux.js.\
 In parallel, I use the accumulated knowledge in practice.
+
+##**Skills**
+* HTML
+* CSS/Sass/SCSS
+* JavaScript
+* React
+* Redux
+* Git/GitHub
+* NPM
+* OOP
