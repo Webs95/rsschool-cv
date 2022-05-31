@@ -29,3 +29,6 @@ function isPalindrome(word) {
 }
 ```
 
+##**Languages:**
+* **English** - */B1*/
+* **Russian** - *Native*/
