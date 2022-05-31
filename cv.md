@@ -40,3 +40,8 @@ function isPalindrome(word) {
 * [freeCodeCamp](https://www.freecodecamp.org)
 * [stepic.org](stepic.org)
 * [Udemy](udemy.com)
+
+##**Expirience**
+* [musicVibes](https://webs95.github.io/react-vibeMusic/) */HTML, SCSS, React.js*/
+* [Search movies](https://webs95.github.io/react-movie/) */HTML, CSS, Materialize, React.js, OMDb API*/
+* **and another pet-projects**
