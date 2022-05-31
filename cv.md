@@ -7,12 +7,12 @@
 * **GitHub:** [Webs95](https://github.com/Webs95)
 * **Phone:** +375 33 666-84-73
 
-##About Me
+##**About Me**
 I am a beginner Frontend developer.\
 I am currently studying React.js, and also Redux.js.\
 In parallel, I use the accumulated knowledge in practice.
 
-##**Skills**
+##**Skills:**
 * HTML
 * CSS/Sass/SCSS
 * JavaScript
@@ -21,3 +21,11 @@ In parallel, I use the accumulated knowledge in practice.
 * Git/GitHub
 * NPM
 * OOP
+
+##**Code Example:**
+```
+function isPalindrome(word) {
+  return word.toLowerCase() === word.toLowerCase().split('').reverse().join('')
+}
+```
+
