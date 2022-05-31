@@ -35,3 +35,8 @@ function isPalindrome(word) {
 
 ##**Education**
 * **Belarusian State Academy Of Communications** */Department of Telecommunications Networks Software*/
+
+##**Courses**
+* [freeCodeCamp](https://www.freecodecamp.org)
+* [stepic.org](stepic.org)
+* [Udemy](udemy.com)
