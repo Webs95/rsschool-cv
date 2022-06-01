@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+.container {
+  width: 110rem;
+  margin: 0 auto;
+}
+
+.header {
+  height: 290px;
+  background-color: antiquewhite;
+}
+
+.header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .avatar {
+  width: 270px;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.header .titles {
+  margin-left: 30rem;
+}
+
+.header .titles .title {
+  font-size: 4rem;
+}
+
+.header .titles .subtitle {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.main {
+  background: rgba(80, 73, 73, 0.445);
+  height: 100%;
+}
+
+.main .section {
+  font-size: 1.9rem;
+}
+/*# sourceMappingURL=style.css.map */
