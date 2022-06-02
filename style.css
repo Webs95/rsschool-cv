@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,14 +8,24 @@ html {
   font-size: 10px;
 }
 
+body {
+  background: #fafaf2;
+}
+
 .container {
   width: 110rem;
   margin: 0 auto;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+.container .link {
+  text-decoration: none;
+  color: #0f5c63;
 }
 
 .header {
   height: 290px;
-  background-color: antiquewhite;
+  background: #0f5c63;
 }
 
 .header .wrapper {
@@ -34,6 +45,7 @@ html {
 
 .header .titles {
   margin-left: 30rem;
+  color: #e7e7df;
 }
 
 .header .titles .title {
@@ -46,11 +58,26 @@ html {
 }
 
 .main {
-  background: rgba(80, 73, 73, 0.445);
+  background: #e7e7df;
   height: 100%;
+  padding-left: 2rem;
+  color: #22352c;
 }
 
 .main .section {
   font-size: 1.9rem;
+  margin: 1rem;
+}
+
+.main .section .section-title {
+  margin-bottom: 0.8rem;
+}
+
+.main .list {
+  list-style: none;
+}
+
+.bold {
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
