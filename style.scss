@@ -8,6 +8,7 @@
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth
 }
 
 body {
@@ -28,8 +29,24 @@ body {
 }
 
 .header {
-  height: 290px;
+  height: 338px;
   background: #248f74;
+  .nav-list {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 2.1rem;
+    .nav-list-item {
+      text-decoration: none;
+      color: #e7e7df;
+      transition: all 0.3s ease;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
   .wrapper {
     display: flex;
     align-items: center;
@@ -87,6 +104,7 @@ body {
   }
   .sign-git {
     color: #e7e7df;
+    text-decoration: none;
   }
   .sign-rs-logo {
     padding-top: 0.1rem;
