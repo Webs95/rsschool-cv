@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -23,9 +24,13 @@ body {
   color: #0f5c63;
 }
 
+.container .link:hover {
+  color: #2c848b;
+}
+
 .header {
   height: 290px;
-  background: #0f5c63;
+  background: #248f74;
 }
 
 .header .wrapper {
@@ -58,7 +63,7 @@ body {
 }
 
 .main {
-  background: #e7e7df;
+  background: #f0ebdd;
   height: 100%;
   padding-left: 2rem;
   color: #22352c;
@@ -66,7 +71,7 @@ body {
 
 .main .section {
   font-size: 1.9rem;
-  margin: 1rem;
+  padding: 1rem 0.3rem;
 }
 
 .main .section .section-title {
@@ -75,6 +80,39 @@ body {
 
 .main .list {
   list-style: none;
+}
+
+.footer {
+  font-size: 2.5rem;
+  font-weight: 900;
+  background: #248f74;
+}
+
+.footer .sign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.footer .sign-rs-logo {
+  width: 8rem;
+  -webkit-filter: invert(90%) sepia(0%) saturate(395%) hue-rotate(136deg) brightness(95%) contrast(106%);
+          filter: invert(90%) sepia(0%) saturate(395%) hue-rotate(136deg) brightness(95%) contrast(106%);
+}
+
+.footer .sign-git {
+  color: #e7e7df;
+}
+
+.footer .sign-rs-logo {
+  padding-top: 0.1rem;
 }
 
 .bold {
