@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  width: 110rem;
+  max-width: 105rem;
   margin: 0 auto;
   font-family: 'Roboto Flex', sans-serif;
 }
@@ -75,7 +75,7 @@ body {
 }
 
 .header .titles {
-  margin-left: 30rem;
+  margin-left: 25rem;
   color: #e7e7df;
 }
 
@@ -125,6 +125,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-family: 'Bebas Neue', cursive;
+  color: #e7e7df;
 }
 
 .footer .sign-rs-logo {
@@ -144,5 +145,52 @@ body {
 
 .bold {
   font-weight: bold;
+}
+
+@media screen and (max-width: 920px) {
+  .header .titles {
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 7px;
+  }
+  .container {
+    width: 100%;
+  }
+  .header {
+    height: auto;
+  }
+  .header .avatar {
+    width: 35%;
+  }
+  .header .titles {
+    margin-left: 0;
+  }
+  .nav {
+    display: none;
+  }
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main {
+    text-align: left;
+    padding-left: 0;
+    overflow: scroll;
+  }
+  .main .code-example {
+    font-size: 1.7rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

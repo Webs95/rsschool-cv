@@ -8,7 +8,7 @@
 
 html {
   font-size: 10px;
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 body {
@@ -16,13 +16,13 @@ body {
 }
 
 .container {
-  width: 110rem;
+  max-width: 105rem;
   margin: 0 auto;
   font-family: 'Roboto Flex', sans-serif;
   .link {
     text-decoration: none;
     color: #0f5c63;
-    &:hover{
+    &:hover {
       color: #2c848b;
     }
   }
@@ -57,7 +57,7 @@ body {
     margin: 1rem;
   }
   .titles {
-    margin-left: 30rem;
+    margin-left: 25rem;
     color: #e7e7df;
     .title {
       font-size: 4rem;
@@ -95,10 +95,12 @@ body {
     justify-content: space-evenly;
     align-items: center;
     font-family: 'Bebas Neue', cursive;
+    color: #e7e7df;
   }
   .sign-rs-logo {
     width: 8rem;
-    filter: invert(90%) sepia(0%) saturate(395%) hue-rotate(136deg) brightness(95%) contrast(106%);
+    filter: invert(90%) sepia(0%) saturate(395%) hue-rotate(136deg)
+      brightness(95%) contrast(106%);
   }
   .logo-link {
   }
@@ -113,4 +115,50 @@ body {
 
 .bold {
   font-weight: bold;
+}
+
+@media screen and (max-width: 920px) {
+  .header {
+    .titles {
+      margin-left: 5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 7px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .header {
+    height: auto;
+    .avatar {
+      width: 35%;
+    }
+    .titles {
+      margin-left: 0;
+    }
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .wrapper {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .main {
+    text-align: left;
+    padding-left: 0;
+    overflow: scroll;
+    .code-example {
+      font-size: 1.7rem;
+    }
+  }
 }
