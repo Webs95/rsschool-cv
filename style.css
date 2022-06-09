@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fafaf2;
+}
+
+.container {
+  max-width: 105rem;
+  margin: 0 auto;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+.container .link {
+  text-decoration: none;
+  color: #0f5c63;
+}
+
+.container .link:hover {
+  color: #2c848b;
+}
+
+.header {
+  height: 338px;
+  background: #248f74;
+}
+
+.header .nav-list {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  font-size: 2.1rem;
+}
+
+.header .nav-list .nav-list-item {
+  text-decoration: none;
+  color: #e7e7df;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.header .nav-list .nav-list-item:hover {
+  text-decoration: underline;
+}
+
+.header .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .avatar {
+  width: 270px;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.header .titles {
+  margin-left: 25rem;
+  color: #e7e7df;
+}
+
+.header .titles .title {
+  font-size: 4rem;
+}
+
+.header .titles .subtitle {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.main {
+  background: #f0ebdd;
+  height: 100%;
+  padding-left: 2rem;
+  color: #22352c;
+}
+
+.main .section {
+  font-size: 1.9rem;
+  padding: 1rem 0.3rem;
+}
+
+.main .section .section-title {
+  margin-bottom: 0.8rem;
+}
+
+.main .list {
+  list-style: none;
+}
+
+.footer {
+  font-size: 2.5rem;
+  font-weight: 900;
+  background: #248f74;
+}
+
+.footer .sign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Bebas Neue', cursive;
+  color: #e7e7df;
+}
+
+.footer .sign-rs-logo {
+  width: 8rem;
+  -webkit-filter: invert(90%) sepia(0%) saturate(395%) hue-rotate(136deg) brightness(95%) contrast(106%);
+          filter: invert(90%) sepia(0%) saturate(395%) hue-rotate(136deg) brightness(95%) contrast(106%);
+}
+
+.footer .sign-git {
+  color: #e7e7df;
+  text-decoration: none;
+}
+
+.footer .sign-rs-logo {
+  padding-top: 0.1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 920px) {
+  .header .titles {
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  html {
+    font-size: 7px;
+  }
+  .container {
+    width: 100%;
+  }
+  .header {
+    height: auto;
+  }
+  .header .avatar {
+    width: 35%;
+  }
+  .header .titles {
+    margin-left: 0;
+  }
+  .nav {
+    display: none;
+  }
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main {
+    text-align: left;
+    padding-left: 0;
+  }
+  .main .code-example {
+    font-size: 1.7rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
